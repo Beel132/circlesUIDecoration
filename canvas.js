@@ -67,7 +67,10 @@ function Circle(x, y, velocityX, velocityY, radius) {
 
 var arr = []
 
-for (let i = 0; i < 1000; i++) {
+for (let i = 0; i < 500; i++) {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
     var radius = Math.random() * 1;
     var x = Math.random() * (canvas.width - radius * 2) + radius;
     var y = Math.random() * (canvas.height - radius * 2) + radius;
