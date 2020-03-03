@@ -67,7 +67,7 @@ function Circle(x, y, velocityX, velocityY, radius) {
 
 var arr = []
 
-for (let i = 0; i < 500; i++) {
+for (let i = 0; i < 750; i++) { // (750) numbers of circles showing in the screen
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
